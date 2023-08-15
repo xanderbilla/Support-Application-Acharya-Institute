@@ -12,7 +12,7 @@ body{
 }
 
 ::-webkit-scrollbar {
-    height: 4px;
+    height: 0px;
     width: 1px;
     border: 1px solid #d5d5d5;
   }

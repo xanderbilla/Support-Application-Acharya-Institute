@@ -51,3 +51,14 @@
 .copyright{
     font-weight: 500;
 }
+
+@media (max-width: 767px) {
+  .wrapper{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .right{
+   display: none;
+  }
+}

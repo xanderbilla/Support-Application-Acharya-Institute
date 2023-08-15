@@ -67,5 +67,13 @@
     .dashboard{
         margin: 14px;
     }
+
+    .tab_header{
+        overflow-x: scroll;
+    }
+
+    .dashboard{
+        padding: 0;
+    }
   }
   

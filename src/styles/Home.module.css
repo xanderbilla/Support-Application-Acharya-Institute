@@ -65,3 +65,27 @@
 background-color: black;
 color: #fff;
 }
+
+@media (max-width: 767px) {
+
+    .container{
+        padding: 2rem;
+    }
+
+    .logo{
+        height: 5rem;
+    }
+
+    .text{
+        font-size: 2rem;
+    }
+
+    .wrapper{
+        margin: 0;
+    }
+
+    .header{
+        flex-direction: column;
+        gap: 0px;
+    }
+}

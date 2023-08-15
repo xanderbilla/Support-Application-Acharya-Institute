@@ -27,3 +27,9 @@
     font-weight: 600;
     opacity: 0.8;
 }
+
+@media (max-width: 767px) {
+    .docs{
+        padding: 1rem;
+    }
+}
