@@ -1,0 +1,29 @@
+.container{
+    padding: 0.5rem;
+}
+
+.docs{
+    padding: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 8px;
+    background-color: rgba(64, 224, 208, 0.281);
+}
+
+.docs__info{
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+}
+
+.course__text{
+    font-weight: 600;
+    opacity: 0.8;
+}
