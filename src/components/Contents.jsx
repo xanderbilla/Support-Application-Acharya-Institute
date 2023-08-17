@@ -28,10 +28,10 @@ const Contents = () => {
         {activeTab === 2 && <TabContent data={aws}/>}
         {activeTab === 3 && <TabContent data={jenkins}/>}
         {activeTab === 4 && <TabContent data={frontend}/>}
-        {activeTab === 5 && <TabContent data={java}/>}
-        {activeTab === 6 && <TabContent data={mongodb}/>}
-        {activeTab === 7 && <TabContent data={containers}/>}
-        {activeTab === 8 && <TabContent data={api}/>}
+        {activeTab === 5 && <TabContent data={api}/>}
+        {activeTab === 6 && <TabContent data={java}/>}
+        {activeTab === 7 && <TabContent data={mongodb}/>}
+        {activeTab === 8 && <TabContent data={containers}/>}
       </div>
     </div>
   );

@@ -114,21 +114,106 @@ export const frontend = {
 };
 
 export const api = {
-  message: "Wait for new update",
+  
+  id: 8,
+  title: "API",
+  docs: [],
+  books: [],
+  duration: "18h",
+  course_name: [],
+  videos: [
+    {
+      id: "video_1",
+      title: "API Complete Guide",
+      url: "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=61s&pp=ygURYXBpIGZyZWVjb2RlIGNhbXA%3D",
+    },
+  ]
 };
 
 export const mongodb = {
-  message: "Wait for new update",
+  id: 3,
+  title: "Mongo DB",
+  docs: [
+    {
+      id: "docs_1",
+      title: "Mongo DB Manual 7.0",
+      url: "https://www.mongodb.com/docs/manual/",
+    },
+  ],
+  books: [
+    {
+      id: "book_1",
+      title: "Mastering MongoDB 6.x",
+      url: "http://62.182.86.140/main/3417000/1bb10a3547de8925b9ff3cb8d5c50513/Alex%20Giamas%20-%20Mastering%20MongoDB%206.x_%20Expert%20techniques%20to%20run%20high-volume%20and%20fault-tolerant%20database%20solutions%20using%20MongoDB%206.x%2C%203rd%20Edition-Packt%20Publishing%20%282022%29.pdf",
+      file: "",
+    },
+  ],
+  duration: "17.5h (approx)",
+  course_name: [
+    {
+      id: "course_1",
+      title: "MongoDB: The complete Developer Guide",
+      file: "",
+      url: "https://xanderbilla.s3.ap-south-1.amazonaws.com/MongoDB+-+The+Complete+Developer's+Guide+2023.torrent",
+    },
+  ],
+  videos: [],
 };
 
 export const containers = {
-  message: "Wait for new update",
+  id: 6,
+  title: "Docker & Kubernetes",
+  docs: [],
+  books: [],
+  duration: "7h",
+  course_name: [],
+  videos: [
+    {
+      id: "video_1",
+      title: "Docker & Kubernetes",
+      url: "https://www.youtube.com/playlist?list=PLUDwpEzHYYLs6I6jA_USsP3UWfS7EKCf2",
+    },
+  ],
 };
 
 export const java = {
-  message: "Wait for new update",
+  id: 8,
+  title: "Java / Spring Framework",
+  docs: [],
+  books: [],
+  duration: "18h",
+  course_name: [],
+  videos: [
+    {
+      id: "video_1",
+      title: "Spring Framework",
+      url: "https://www.youtube.com/playlist?list=PL0zysOflRCekeiERASkpi-crREVensZGS",
+    },
+    {
+      id: "video_2",
+      title: "Spring Boot",
+      url: "https://www.youtube.com/playlist?list=PL0zysOflRCelmjxj-g4jLr3WKraSU_e8q",
+    },
+  ],
 };
 
 export const jenkins = {
-  message: "Wait for new update",
+  id: 9,
+  title: "Jenkins",
+  docs: [],
+  books: [],
+  duration: "4h",
+  course_name: [],
+  videos: [
+    {
+      id: "video_1",
+      title: "Jenkins Theory, Demo and Installtion",
+      url: "https://www.youtube.com/playlist?list=PLdppB_yrVFXKb6u98tRP3wDsxRlOFJD1W",
+    },
+    {
+      id: "video_2",
+      title: "Jenkins Lab (Will be updated soon)",
+      url: "",
+    },
+  ],
 };

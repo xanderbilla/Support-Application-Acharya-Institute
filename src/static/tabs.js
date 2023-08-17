@@ -17,11 +17,11 @@ export const tabs = [
     },
     {
         id: 5,
-        title: 'Java / Spring Framework'
+        title: 'API'
     },
     {
         id: 6,
-        title: 'API'
+        title: 'Java / Spring Framework'
     },
     {
         id: 7,
